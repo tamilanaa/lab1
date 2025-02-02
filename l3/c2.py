@@ -7,12 +7,12 @@ class Shape():
 
 class Rectangle(Shape):
     def area(self):
-        print(self.length * self.width)
+        return(self.length * self.width)
 
 x = int(input())
 y = int(input())
 s = Rectangle(x, y)
-s.area()
+print("Area:", s.area())
 
 #4 Point class
 #a method show to display the coordinates of the point
